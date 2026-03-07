@@ -1,0 +1,29 @@
+[
+  {
+    
+    "img": "https://tse4.mm.bing.net/th/id/OIP.TJTJv1YwV3kM0JUt-BhYGgHaEZ?pid=Api&P=0&h=180",
+    "Course": "FEDF & UI Engineering",
+    "percentage": "100%"
+  },
+  {
+    "img": "https://tse2.mm.bing.net/th/id/OIP.kpjjJu_ArBTO6mLGoZoEBwAAAA?pid=Api&P=0&h=180",
+    "Course": "Data Structures and Algorithms",
+    "percentage": "94%"
+  },
+
+  {
+    "img": "https://tse2.mm.bing.net/th/id/OIP.ijuJuH0kV0wZc71NxOvU9wHaEE?pid=Api&P=0&h=180",
+    "Course": "Mathematics for AI",
+    "percentage": "95%"
+  },
+   {
+    "img": "https://tse4.mm.bing.net/th/id/OIP.ToPSudIWQ5MwhR08-OWXgQHaEK?pid=Api&P=0&h=180",
+    "Course": "Digital System Design and Computer Organisation",
+    "percentage": "92%"
+  },
+  {
+    "img": "https://media2.dev.to/dynamic/image/width=1280,height=720,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2ct1xr4n0tjds1m24ni5.png",
+    "Course": "Communication Skills for Engineers",
+    "percentage": "90%"
+  }
+]

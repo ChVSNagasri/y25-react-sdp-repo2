@@ -21,6 +21,8 @@ const handleSubmit=()=>{
      if(role=="Student"){
       if(uname=="student" && pwd=="student" )
      {
+       sessionStorage.setItem("username", uname)
+       sessionStorage.setItem("role", role)
          alert("Login valid")
          navigate("/nav")
      }else{
@@ -30,15 +32,20 @@ const handleSubmit=()=>{
      else if(role=="Faculty"){
         if(uname=="faculty" && pwd=="faculty" )
      {
+       sessionStorage.setItem("username", uname)
+       sessionStorage.setItem("role", role)
          alert("Login valid")
          navigate("/navers")
      }else{
+
         alert("Invalid")
      }   
     }
      else if(role=="Parent"){
         if(uname=="parent" && pwd=="parent" )
      {
+        sessionStorage.setItem("username", uname)
+        sessionStorage.setItem("role", role)
          alert("Login valid")
          navigate("/navs")
      }else{
@@ -48,6 +55,8 @@ const handleSubmit=()=>{
       else{
         if(uname=="admin" && pwd=="admin" )
      {
+          sessionStorage.setItem("username", uname)
+          sessionStorage.setItem("role", role)
          alert("Login valid")
          navigate("/naver")
      }else{
