@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "J.SURYA KIRAN",
+    "course": "FULL STACK WEB & DBMS"
+  },
+  {
+    "id": 2,
+    "name": "V.BAGHAVAN",
+    "course": "MATHEMATICS"
+  },
+
+  {
+    "id": 3,
+    "name": "A.PAVAN KUMAR",
+    "course": "DSA"
+  },
+  {
+    "id": 4,
+    "name": "P.ARUNA SRI",
+    "course": "JAVA PROGRAMMING"
+  },
+  {
+  "id": 5,
+    "name": "T.RAJESWARI",
+    "course": "Communication Skills"
+  },
+  {
+  "id": 6,
+    "name": "V.SURESH KUMAR",
+    "course": "DTI"
+  },
+  {
+  "id": 7,
+    "name": "M.LAXMAN KUMAR",
+    "course": "DDCA"
+  },
+  {
+  "id": 8,
+    "name": "A.NAGARAJU",
+    "course": "C PROGRAMMING"
+  },
+   {
+    "id": 9,
+    "name": "P.RAVI KUMAR",
+    "course": "DSD"
+  }
+]

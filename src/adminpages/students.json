@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "CH.V.S.NAGASRI",
+    "course": "CSE"
+  },
+  {
+    "id": 2,
+    "name": "B.SUPRIYA",
+    "course": "CSE"
+  },
+
+  {
+    "id": 3,
+    "name": "M.SAMANVITHA",
+    "course": "CSE"
+  },
+  {
+    "id": 4,
+    "name": "S.ALICE SMITH",
+    "course": "AI&DS"
+  },
+  {
+  "id": 5,
+    "name": "T.BOB SMITH",
+    "course": "ECE"
+  },
+  {
+  "id": 6,
+    "name": "K.MOKTHIKA",
+    "course": "AI&DS"
+  },
+  {
+  "id": 7,
+    "name": "Y.JAHANAVI",
+    "course": "CSE"
+  },
+  {
+  "id": 8,
+    "name": "M.ANANYA",
+    "course": "CSE"
+  },
+   {
+    "id": 9,
+    "name": "Y.Charlie Brown",
+    "course": "Software Engineering"
+  }
+]
