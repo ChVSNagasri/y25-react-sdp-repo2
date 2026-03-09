@@ -11,7 +11,7 @@ export default function Demo1()
     ).catch((err) => {
         setError(err.message)
     });
- }, []);// empty Dependency array //Dependency is input 
+ }, []); 
   return (
     <div>
     <h1>CTC Students</h1> 
