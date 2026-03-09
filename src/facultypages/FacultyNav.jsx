@@ -13,11 +13,11 @@ export default function FacultyNav()
    
     <div className="main-container">
 <nav className="navers">
-      <button><Link to="/navers">Home</Link></button>
-      <button><Link to="/navers/facultytimetables">Timetable</Link></button>
-      <button><Link to="/navers/marksallotments">Reward Marks</Link></button>
-      <button><Link to="/navers/attendanceregisters">Register</Link></button>
-      <button onClick={()=>navigate("/")}>Logout</button>
+      <button><Link to="/navers">🏠Home</Link></button>
+      <button><Link to="/navers/facultytimetables">📅Timetable</Link></button>
+      <button><Link to="/navers/marksallotments">📊Reward Marks</Link></button>
+      <button><Link to="/navers/attendanceregisters">✅Register</Link></button>
+      <button onClick={()=>navigate("/")}>🔒Logout</button>
 </nav>
             <div className="content">
         <Routes>

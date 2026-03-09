@@ -25,7 +25,6 @@ export default function StudentNav()
         <button><Link to="/nav/assignment">📝Assignment</Link></button>
         <button><Link to="/nav/cgpa">🎓CGPA</Link></button>
         <button><Link to="/nav/timetable">📅Timetable</Link></button>
-        
         <button onClick={()=>navigate("/")}>🔒Logout</button>
       </nav>
 
