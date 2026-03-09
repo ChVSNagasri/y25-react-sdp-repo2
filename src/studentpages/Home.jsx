@@ -12,14 +12,8 @@ export default function Home() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    const storedUser = localStorage.getItem("studentUser");
-
-    if (storedUser) {
-      setUser(JSON.parse(storedUser));
-    } else {
-      localStorage.setItem("studentUser", JSON.stringify(defaultUser));
-      setUser(defaultUser);
-    }
+    localStorage.setItem("studentUser", JSON.stringify(defaultUser));
+    setUser(defaultUser);
   }, []);
 
   if (!user) return null;
@@ -30,7 +24,7 @@ export default function Home() {
         <img className="oip" src={Logins} alt="Profile" width={100} height={100} />
         <div className="card-body">
           <h2 style={{ color: "#493755" }}>
-           Welcome! {user.id}
+            Welcome! {user.id}
           </h2>
           <h2 style={{ color: "#503e5c" }}>
             {user.name}

@@ -11,6 +11,7 @@
 input{
     padding: 8px;
     margin: 8px;
+    border-color: rgb(109, 102, 192);
 }
 
 button{

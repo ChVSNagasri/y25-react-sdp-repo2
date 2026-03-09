@@ -14,7 +14,7 @@ export default function Demo1()
  }, []);// empty Dependency array //Dependency is input 
   return (
     <div>
-    <h2><u>Fetch API Demo</u></h2> 
+    <h1>CTC Students</h1> 
     {
         error? <b>{error}</b>:
         data.length==0? <b>Loading...</b>:
