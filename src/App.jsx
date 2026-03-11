@@ -18,7 +18,7 @@ function App() {
         <Route path="/navs/*" element={<ParentNav/>}/>
         <Route path="/naver/*" element={<AdminNav/>}/>
         <Route path="/navers/*" element={<FacultyNav/>}/>
-        <Route path="award" element={<Awarders/>}/>
+         <Route path="/award" element={<Awarders/>}/> 
      </Routes>
      </BrowserRouter>
     </div>

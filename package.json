@@ -3,14 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://github.com/ChVSNagasri/y25-react-sdp-repo2",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "nagasri":"npm run build",
-    "2026":"gh-pages -d dist"
+    "preview": "vite preview"
+   
 
   },
   "dependencies": {
