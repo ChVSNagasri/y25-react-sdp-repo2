@@ -71,7 +71,11 @@ const handleSubmit=()=>{
       </div>
       <div className="formSection">
         <div className="loginCard">
-          <h2>Login</h2>
+          <h1 className="text-3xl font-bold  mb-5pxl">UniEdu@KLU Portal</h1>
+          <div></div>
+          <div>
+          <h2 className="text-2xl font-bold">Login</h2>
+          </div>
         <form >
             <select ref={roleRef} onClick={handleRoleChange}>
                 <option >Student</option>

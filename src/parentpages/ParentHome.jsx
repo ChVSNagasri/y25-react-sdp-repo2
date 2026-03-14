@@ -19,7 +19,7 @@ export default function Home() {
         <img className="oip" src={Logins} alt="Profile" width={100} height={100} />
         <div className="card-body">
           <h2 style={{ color: "#493755" }}>
-            Welcome, {user.id}  
+            Welcome to UniEdu@KLU Portal!, {user.id}  
           </h2>
         </div>
       </div>

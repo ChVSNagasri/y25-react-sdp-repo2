@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Nag from "../images/Nag.jpeg";
+import Nag from "../images/Nag.jpg";
 import "./profile.css";
 
 export default function Profile() {
