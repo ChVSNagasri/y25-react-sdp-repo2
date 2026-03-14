@@ -1,5 +1,5 @@
 import Login from "./login/Login"
-import {Routes,Route, HashRouter} from 'react-router-dom'
+import {Routes,Route, BrowserRouter} from 'react-router-dom'
 import StudentNav from "./studentpages/StudentNav"
 import ParentNav from "./parentpages/ParentNav"
 import AdminNav from "./adminpages/AdminNav"
@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
    
-     <HashRouter>
+     <BrowserRouter>
      <Routes>
       <Route path="/" element={<Login/>} />
         <Route path="/nav/*" element={<StudentNav/>} />
@@ -20,7 +20,7 @@ function App() {
         <Route path="/navers/*" element={<FacultyNav/>}/>
          <Route path="/award" element={<Awarders/>}/> 
      </Routes>
-     </HashRouter>
+     </BrowserRouter>
     </div>
   )
 }
